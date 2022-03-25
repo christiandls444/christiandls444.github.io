@@ -45,34 +45,33 @@ function scrollActive(){
 const sr = ScrollReveal({
     origin: 'top',
     distance: '80px',
-    duration: 2000,
+    duration: 0,
     reset: true
 })
 
-/*SCROLL HOME*/
-sr.reveal('.home__title', {})
-sr.reveal('.home__scroll', {delay: 100})
-sr.reveal('.home__subtitle', {delay: 400})
-sr.reveal('.home__img', {origin:'right', delay: 100})
-
-
-/*SCROLL ABOUT*/
-sr.reveal('.about__img', {delay: 250})
-sr.reveal('.about__subtitle', {delay: 250})
-sr.reveal('.about__profession', {delay: 200})
-sr.reveal('.about__text', {delay: 250})
-sr.reveal('.about__social-icon', {delay: 300, interval: 200})
-
-/*SCROLL SKILLS*/
-sr.reveal('.skills__subtitle', {})
-sr.reveal('.skills__name', {distance: '20px', delay: 50, interval: 100})
-sr.reveal('.skills__img', {delay: 200})
-
-/*SCROLL PROJECT*/
-sr.reveal('.project__img', {interval: 100})
-
-/*SCROLL CONTACT*/
-sr.reveal('.contact__subtitle', {})
-sr.reveal('.contact__text', {interval: 100})
-sr.reveal('.contact__input', {delay: 200})
-sr.reveal('.contact__button', {delay: 300})
+// /*SCROLL HOME*/
+// sr.reveal('.home__title', {})
+// sr.reveal('.home__scroll', {delay: 25})
+// sr.reveal('.home__subtitle', {delay: 100})
+// sr.reveal('.home__img', {origin:'right', delay: 25})
+//
+// /*SCROLL ABOUT*/
+// sr.reveal('.about__img', {delay: 63})
+// sr.reveal('.about__subtitle', {delay: 63})
+// sr.reveal('.about__profession', {delay: 50})
+// sr.reveal('.about__text', {delay: 63})
+// sr.reveal('.about__social-icon', {delay: 75, interval: 50})
+//
+// /*SCROLL SKILLS*/
+// sr.reveal('.skills__subtitle', {})
+// sr.reveal('.skills__name', {distance: '20px', delay: 13, interval: 25})
+// sr.reveal('.skills__img', {delay: 50})
+//
+// /*SCROLL PROJECT*/
+// sr.reveal('.project__img', {interval: 25})
+//
+// /*SCROLL CONTACT*/
+// sr.reveal('.contact__subtitle', {})
+// sr.reveal('.contact__text', {interval: 25})
+// sr.reveal('.contact__input', {delay: 50})
+// sr.reveal('.contact__button', {delay: 75})

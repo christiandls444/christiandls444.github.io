@@ -10,7 +10,7 @@
 /*===== COLORS =====*/
 :root{
     --first-color: #75f0bd;
-    --white-color: #222a27;
+    --white-color: #cacecc;
     --dark-color: #2A3B47;
     --text-color: #222a27;
     --base-color: #222a27;
@@ -296,6 +296,7 @@ img{
     padding: .25rem .5rem;
     background-color: var(--white-color);
     border-radius: .25rem;
+    color: var(--base-color);
 }
 .skills__name:hover{
     background-color: var(--active-color);
@@ -371,7 +372,7 @@ img{
 .contact__button{
     display: block;
     background-color: var(--first-color);
-    color: var(--white-color);
+    color: var(--dark-color);
     padding: .75rem 2.5rem;
     margin-left: auto;
     border-radius: .5rem;
